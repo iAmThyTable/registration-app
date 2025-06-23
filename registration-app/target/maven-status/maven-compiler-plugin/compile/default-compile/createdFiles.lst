@@ -1,0 +1,14 @@
+app\validation\SimpleValidator.class
+app\validation\response\ValidationResponse.class
+app\database\DatabaseDetails.class
+app\servlet\LoggedServlet.class
+app\database\DatabaseManager.class
+app\Main.class
+app\servlet\UpdateServlet.class
+app\validation\Validator.class
+app\database\DatabaseQueries.class
+app\model\User.class
+app\servlet\LoginServlet.class
+app\servlet\LogoutServlet.class
+app\servlet\RegisterServlet.class
+app\model\password\PasswordHasher.class

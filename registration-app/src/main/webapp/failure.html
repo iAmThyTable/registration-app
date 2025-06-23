@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Failure</title>
+</head>
+<body>
+<h1>Operation Failed</h1>
+<p id="errorMessage">Something went wrong.</p>
+
+<p><a href="javascript:history.back()">Go Back</a></p>
+<p><a href="index.html">Home</a></p>
+
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const error = urlParams.get('error');
+    if (error) {
+        document.getElementById('errorMessage').textContent = decodeURIComponent(error);
+    }
+</script>
+</body>
+</html>
